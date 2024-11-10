@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Highseas Idea Generator</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="scripts.js"></script> 
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="assets/highseas.webp">
+    </head>
+    <body>
+        <script src="https://js.puter.com/v2/"></script>
+        <header class="bg-blue-500 text-white p-4" style="margin-bottom: 10px;">
+            <div class="container mx-auto">
+                <h1 class="text-3xl font-bold">Highseas Idea Generator</h1>
+            </div>
+        </header>
+            <input style="width: 30%;" type="text" id="lang" class="bg-blue-300 text-white-100 text-sm rounded-lg p-2.5 dark:bg-gray-900 placeholder-gray-500" placeholder="What programming languages do you know?">
+            <input style="width: 30%;" type="text" id="hour" class="bg-blue-300 text-white-100 text-sm rounded-lg p-2.5 dark:bg-gray-900 placeholder-gray-500" placeholder="How long do you have to make it? (hours, number only)"> 
+            <br style="margin-bottom: 15px;">
+            <input style="width: 60%;" type="text" id="type" class="bg-blue-300 text-white-100 text-sm rounded-lg p-2.5 dark:bg-gray-900 placeholder-gray-500" placeholder="What kind of projects do you enjoy making? (Apps, Websites, Mobile Apps, Hardware Projects, Ect)">
+            <br style="margin-bottom: 22px;">
+            <a href="javascript:generate()" class="text-white bg-blue-400 hover:bg-blue-500 focus:ring-4 font-medium rounded-lg text-sm py-2.5"  style="padding-left: 27%; padding-right: 27%; margin-bottom: 20px;">Generate Idea <br></a> 
+            <br>
+            <div id="container" style="margin-bottom: 20px;"></div>
+    </body>
+</html>
